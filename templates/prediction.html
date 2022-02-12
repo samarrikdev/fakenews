@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>SREEDM</title>
+        <link rel="stylesheet" href="/static/css/style.css">
+         <script type="text/javascript" src="/static/css/vanilla-tilt.js"></script>
+
+    </head>
+
+    <body>
+        <img src="../static/images/main.png" alt="" class="logo">
+
+        <div class="container">
+            <div class="card">
+                <div class="content">
+                    <h2>SREEDM</h2>
+                    <h3>Find out the truth</h3>
+                    <p>If you want to find out if information is true or fake, just paste that information below. WARNING! If you want to receive result with more than 60% accuracy, make sure your text be more than 40 words.</p>
+                    <div class="search">
+                        <form action="/" method="POST">
+                            <input type="text" class="form-control" id="news" name="news">
+                            <button type="submit" class="btn">Submit</button>
+                        </form>
+                    </div>
+                    
+                    <p class="pred"><b>{{prediction_text}}</b></p>
+                </div>
+            </div>
+
+        </div>
+        
+
+        <script type="text/javascript" src="/static/css/vanilla-tilt.js"></script>
+
+        <script type="text/javascript">
+            VanillaTilt.init(document.querySelector(".card"), {
+                max: 25,
+                speed: 400,
+                glare: true,
+                "max-glare": 1,
+            });
+
+        </script>
+        
+            
+
+    </body>
+        <img src="../static/images/F.png" alt="" class="F">
+        <img src="../static/images/I.png" alt="" class="I">
+        <img src="../static/images/M.png" alt="" class="M">
+        <img src="../static/images/R.png" alt="" class="R">
+        <img src="../static/images/S.png" alt="" class="S">
+        <img src="../static/images/W.png" alt="" class="W">
+        <img src="../static/images/B.png" alt="" class="B">
+        <img src="../static/images/C.png" alt="" class="C">
+        <img src="../static/images/D.png" alt="" class="D">
+        
+        <img src="../static/images/J.png" alt="" class="J">
+        
+        <img src="../static/images/N.png" alt="" class="N">
+        
+    </html>
